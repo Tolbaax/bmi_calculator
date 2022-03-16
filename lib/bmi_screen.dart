@@ -174,10 +174,16 @@ class _BmiScreenState extends State<BmiScreen> {
                             style: TextStyle(
                                 fontSize: 25.0, fontWeight: FontWeight.bold),
                           ),
+                          const SizedBox(
+                            height: 10,
+                          ),
                            Text(
                             '$age',
                             style: const TextStyle(
                                 fontSize: 40.0, fontWeight: FontWeight.w900),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -225,10 +231,16 @@ class _BmiScreenState extends State<BmiScreen> {
                             style: TextStyle(
                                 fontSize: 25.0, fontWeight: FontWeight.bold),
                           ),
+                          const SizedBox(
+                            height: 10,
+                          ),
                            Text(
                             '$weight',
                             style: const TextStyle(
                                 fontSize: 40.0, fontWeight: FontWeight.w900),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
