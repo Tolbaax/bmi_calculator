@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'bmi_screen.dart';
 
 void main() {
-  runApp(BMI());
+  runApp(const BMI());
 }
 
 class BMI extends StatelessWidget {
@@ -13,7 +13,7 @@ class BMI extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BMIscreen(),
+      home: BmiScreen(),
     );
   }
 }
